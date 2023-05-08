@@ -1,0 +1,4 @@
+Flask~=2.3.2
+Pyrogram~=2.0.106
+asgiref~=3.6.0
+peewee~=3.16.2
