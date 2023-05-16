@@ -49,9 +49,9 @@ def fill_database():
 
     } for i in range(amount)]
     users.append({
-        'id': 1255280654,
-        'username': 'alwaysburner',
-        'name': 'Назарій Тимчишин'
+        'id': my_id,
+        'username': my_username,
+        'name': my_name
     })
     User.insert_many(users).execute()
     return {}
